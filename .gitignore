@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+
+.vscode/
